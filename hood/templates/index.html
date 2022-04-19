@@ -4,7 +4,7 @@
     <div class="container" >
         <div class="row">
             <div class="col m12">
-                <h3 class="center-align">Hood Watch For {{profile.neighborhood}}</h3>
+                <h3 class="center-align">Neighbourhood  For {{profile.neighborhood}}</h3>
 
             </div>
             {% for post in posts %}
@@ -22,7 +22,7 @@
         </div>
         <!-- Modal Structure -->
         <div id="modal1" class="modal" style="max-height: 800px !important;">
-          <form action="{%url 'index' %}" method='post' enctype="multipart/form-data">
+          <form action="{%url 'index' %}" method="post" enctype="multipart/form-data">
           <div class="modal-content">
             <h4>Add a Post</h4>
 
@@ -31,7 +31,7 @@
 
           </div>
           <div class="modal-footer">
-              <button type='submit' class="btn btn-primary" style="margin-right:20px;">Submit</button>
+              <button type="submit" class="btn btn-primary" style="margin-right:20px;">Submit</button>
           </div>
           </form>
         </div>
