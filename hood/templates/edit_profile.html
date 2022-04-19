@@ -18,10 +18,10 @@
 -
 <body>
     <div class="container">
-        <form action='.' method='post'>
+        <form action='.' method="pos"'>
             {% csrf_token %}
             {% bootstrap_form form %}
-            <button type='submit' class="btn btn-danger">Submit</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
    {% block scripts %}
