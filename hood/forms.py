@@ -12,8 +12,8 @@ class CompanyForm(forms.ModelForm):
         exclude = ['user','neighborhood']
 
 class PostForm(forms.ModelForm):
-    CHOICES = (('1', 'Amber',), ('2', 'Normal',))
-    type = forms.ChoiceField(widget=forms.Select, choices=CHOICES)
+    # CHOICES = (('1', '',), ('2', 'Normal',))
+    # type = forms.ChoiceField(widget=forms.Select, choices=CHOICES)
     class Meta:
         model = Post
         fields = ('title','content','type')
